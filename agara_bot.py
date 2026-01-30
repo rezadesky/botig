@@ -358,9 +358,24 @@ class AgaraBot:
         self.client.delay_range = [1, 3]
 
     def login(self):
+        # 1. Coba Load Session (Agar aman dari IP Blacklist)
+        session_file = "session.json"
+
+        if os.path.exists(session_file):
+            try:
+                logger.info("📂 Loading session dari file...")
+                self.client.load_settings(session_file)
+                # Coba login ulang untuk refresh cookie, tapi pakai session yang ada
+                self.client.login(Config.IG_USERNAME, Config.IG_PASSWORD)
+                logger.info("✅ Login via Session Berhasil!")
+                return True
+            except Exception as e:
+                logger.warning(f"⚠️ Gagal load session: {e}. Mencoba login manual...")
+
+        # 2. Login Normal (Jika session gagal)
         for attempt in range(3):
             try:
-                logger.info(f"🔄 Login Instagram (Percobaan {attempt+1})...")
+                logger.info(f"🔄 Login Manual Instagram (Percobaan {attempt+1})...")
                 self.client.login(Config.IG_USERNAME, Config.IG_PASSWORD)
                 logger.info("✅ Login Berhasil!")
                 return True
