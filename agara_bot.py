@@ -56,7 +56,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": "https://www.google.com/",
+    "Upgrade-Insecure-Requests": "1"
 })
 
     # ==================== MODULE: HISTORY MANAGER ====================
@@ -433,8 +437,19 @@ class AgaraBot:
 
             # --- 4. Image Processing & Hash Filter ---
             img_url, _ = ContentScraper.extract_image_hd(real_url)
+
+            # FALLBACK: Jika website asli memblokir, coba ambil dari Google RSS sendiri
             if not img_url:
-                logger.warning("⚠️ No valid image found.")
+                if 'media_content' in entry and entry.media_content:
+                    img_url = entry.media_content[0]['url']
+                elif 'description' in entry:
+                    # Coba cari tag <img> di deskripsi RSS
+                    soup_desc = BeautifulSoup(entry.description, 'html.parser')
+                    if img_tag := soup_desc.find('img'):
+                        img_url = img_tag['src']
+
+            if not img_url:
+                logger.warning("⚠️ No valid image found (Website Blocking?). Skip.")
                 continue
 
             if not ContentScraper.download_image_raw(img_url, Config.TEMP_IMAGE_PATH):
