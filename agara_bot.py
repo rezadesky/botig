@@ -365,14 +365,19 @@ class AgaraBot:
             try:
                 logger.info("📂 Loading session dari file...")
                 self.client.load_settings(session_file)
-                # Coba login ulang untuk refresh cookie, tapi pakai session yang ada
-                self.client.login(Config.IG_USERNAME, Config.IG_PASSWORD)
-                logger.info("✅ Login via Session Berhasil!")
-                return True
-            except Exception as e:
-                logger.warning(f"⚠️ Gagal load session: {e}. Mencoba login manual...")
 
-        # 2. Login Normal (Jika session gagal)
+                # --- PENTING: Cek dulu apakah session masih hidup ---
+                # Jangan langsung login(user, pass), itu pemicu blokir!
+                try:
+                    self.client.get_timeline_feed() # Tes koneksi ringan
+                    logger.info("✅ Session VALID! Login tanpa password berhasil.")
+                    return True
+                except Exception:
+                    logger.warning("⚠️ Session kadaluarsa/mati. Terpaksa login manual...")
+            except Exception as e:
+                logger.warning(f"⚠️ Gagal load session: {e}")
+
+        # 2. Login Normal (Hanya jika session mati)
         for attempt in range(3):
             try:
                 logger.info(f"🔄 Login Manual Instagram (Percobaan {attempt+1})...")
