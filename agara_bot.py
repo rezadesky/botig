@@ -362,26 +362,36 @@ class AgaraBot:
         self.client.delay_range = [1, 3]
 
     def login(self):
-        # 1. Coba Load Session (Agar aman dari IP Blacklist)
+        # 1. Coba Load Session (Prioritas Utama)
         session_file = "session.json"
 
         if os.path.exists(session_file):
             try:
-                logger.info("📂 Loading session dari file...")
+                logger.info(f"📂 Ditemukan file session: {session_file}")
                 self.client.load_settings(session_file)
 
-                # --- PENTING: Cek dulu apakah session masih hidup ---
-                # Jangan langsung login(user, pass), itu pemicu blokir!
-                try:
-                    self.client.get_timeline_feed() # Tes koneksi ringan
-                    logger.info("✅ Session VALID! Login tanpa password berhasil.")
-                    return True
-                except Exception:
-                    logger.warning("⚠️ Session kadaluarsa/mati. Terpaksa login manual...")
-            except Exception as e:
-                logger.warning(f"⚠️ Gagal load session: {e}")
+                # Cek koneksi
+                self.client.get_timeline_feed()
+                logger.info("✅ Session VALID! Login tanpa password berhasil.")
+                return True
 
-        # 2. Login Normal (Hanya jika session mati)
+            except Exception as e:
+                logger.error(f"❌ Session File Gagal/Kadaluarsa: {e}")
+                # Hapus session yang rusak agar tidak membingungkan
+                # os.remove(session_file)
+        else:
+            logger.warning("⚠️ File session.json TIDAK DITEMUKAN di server!")
+
+        # 2. Login Manual (Hanya boleh jika Local, JANGAN jika di GitHub)
+        # Kita deteksi apakah sedang di GitHub Actions?
+        is_github = os.getenv("GITHUB_ACTIONS") == "true"
+
+        if is_github:
+            logger.error("⛔ Sedang di GitHub: Login Password dimatikan demi keamanan akun.")
+            logger.error("👉 Solusi: Buat session.json baru di komputer lokal, lalu upload lagi.")
+            return False
+
+        # Jika di komputer lokal, boleh coba login password
         for attempt in range(3):
             try:
                 logger.info(f"🔄 Login Manual Instagram (Percobaan {attempt+1})...")
