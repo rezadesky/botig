@@ -1,0 +1,38 @@
+name: Agara Bot Auto Post
+
+on:
+  schedule:
+    # Jalan setiap 2 jam sekali (Jam 0, 2, 4, 6 dst UTC)
+    - cron: "0 */2 * * *"
+  # Bisa juga dijalankan manual lewat tombol di GitHub
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Agara Bot
+        env:
+          IG_USERNAME: ${{ secrets.IG_USERNAME }}
+          IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
+        run: |
+          python agara_bot.py
+
+      - name: Save History (Agar Tidak Duplikat)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "🤖 Auto-update posted history"
+          file_pattern: posted.txt

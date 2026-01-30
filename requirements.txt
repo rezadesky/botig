@@ -1,0 +1,6 @@
+instagrapi
+feedparser
+beautifulsoup4
+pillow
+requests
+googlenewsdecoder

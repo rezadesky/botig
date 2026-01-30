@@ -1,0 +1,280 @@
+2026-01-30 23:28:06,139 - INFO - 🚀 Bot Started (V6 Professional Refactor)
+2026-01-30 23:28:06,139 - INFO - 🔄 Login Instagram (Percobaan 1)...
+2026-01-30 23:28:07,166 - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2026-01-30 23:28:07,576 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:28:09,037 - INFO - https://i.instagram.com/api/v1/accounts/login/
+2026-01-30 23:28:13,594 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:28:17,042 - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2026-01-30 23:28:17,492 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:28:21,328 - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2026-01-30 23:28:25,596 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:28:25,602 - INFO - ✅ Login Berhasil!
+2026-01-30 23:28:25,602 - INFO - 📡 Scanning Google News RSS...
+2026-01-30 23:28:26,075 - INFO - 📅 Berita Hari Ini: 42
+2026-01-30 23:28:26,075 - INFO - 
+⚡ [1/42] Processing: Sekda Aceh Tenggara Hadiri Pengkajian Kebutuhan Pascabencana - waspada.id
+2026-01-30 23:28:48,092 - INFO - 
+⚡ [2/42] Processing: Alat Berat Dikerahkan Atasi Longsor Gayo Lues-Aceh Tenggara - infonasional.com
+2026-01-30 23:28:52,239 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:28:54,995 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790532239_0_5327471585 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:01,250 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:29:06,695 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:10,514 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:29:10,850 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:10,851 - INFO - ✅ POST SUKSES! PK: 3821602689017042704
+2026-01-30 23:29:10,852 - INFO - 
+⚡ [4/42] Processing: Mulai 4 Februari Susi Air Buka Rute Kutacane-Banda Aceh dan Medan, Cek Jadwal & Tarifnya - gayo.tribunnews.com
+2026-01-30 23:29:12,339 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:29:14,316 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790552339_0_7737053270 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:20,396 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:29:23,586 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:27,501 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:29:27,816 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:27,817 - INFO - ✅ POST SUKSES! PK: 3821602849189126780
+2026-01-30 23:29:27,818 - INFO - 
+⚡ [5/42] Processing: Putra Siregar Dilantik Jadi Kasi PAPBB Kejari Aceh Tenggara - KLIK7TV
+2026-01-30 23:29:28,694 - WARNING - ⚠️ No valid image found.
+2026-01-30 23:29:28,694 - INFO - 
+⚡ [6/42] Processing: Pembersihan material di jalan lintas Blangkejeren-Kutacane dikebut - ANTARA News
+2026-01-30 23:29:30,344 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:29:32,733 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790570345_0_3935762649 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:38,821 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:29:42,446 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:45,998 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:29:46,334 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:29:46,335 - INFO - ✅ POST SUKSES! PK: 3821603003816293338
+2026-01-30 23:29:46,336 - INFO - ☕ Batch Break: Istirahat 41 detik...
+2026-01-30 23:30:27,337 - INFO - 
+⚡ [7/42] Processing: Puluhan Alat Berat Dikerahkan untuk Bersihkan Material Longsor di Gayo Lues - Tempo.co
+2026-01-30 23:30:28,726 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:30:30,405 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790628727_0_1380506745 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:30:36,261 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:30:40,208 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:30:44,010 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:30:44,294 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:30:44,294 - INFO - ✅ POST SUKSES! PK: 3821603486152892671
+2026-01-30 23:30:44,294 - INFO - 
+⚡ [9/42] Processing: Camat Tegaskan BNPB Akan Bangun Jembatan Tanjung Leuser & Normalisasi Pantai Goyang di Aceh Tenggara - gayo.tribunnews.com
+2026-01-30 23:30:45,571 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:30:47,159 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790645571_0_5956748959 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:30:52,677 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:30:56,409 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:30:58,542 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:30:58,839 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:30:58,839 - INFO - ✅ POST SUKSES! PK: 3821603623658971906
+2026-01-30 23:30:58,840 - INFO - 
+⚡ [10/42] Processing: Babinsa Aceh Tenggara Bersama Warga Bangun Jembatan Darurat - RRI.co.id
+2026-01-30 23:31:00,562 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:31:01,970 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790660564_0_2580638520 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:31:08,343 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:31:13,016 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:31:15,685 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:31:15,979 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:31:15,980 - INFO - ✅ POST SUKSES! PK: 3821603755183962346
+2026-01-30 23:31:15,980 - INFO - ☕ Batch Break: Istirahat 59 detik...
+2026-01-30 23:33:00,460 - INFO - 🚀 Bot Started (V6 Professional Refactor)
+2026-01-30 23:33:00,460 - INFO - 🔄 Login Instagram (Percobaan 1)...
+2026-01-30 23:33:03,260 - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2026-01-30 23:33:03,804 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:06,702 - INFO - https://i.instagram.com/api/v1/accounts/login/
+2026-01-30 23:33:12,077 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:16,023 - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2026-01-30 23:33:16,415 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:18,901 - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2026-01-30 23:33:21,776 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:21,782 - INFO - ✅ Login Berhasil!
+2026-01-30 23:33:21,782 - INFO - 📡 Scanning Google News RSS...
+2026-01-30 23:33:22,231 - INFO - 📅 Berita Hari Ini: 42
+2026-01-30 23:33:22,231 - INFO - 
+⚡ [1/42] Processing: Sekda Aceh Tenggara Hadiri Pengkajian Kebutuhan Pascabencana - waspada.id
+2026-01-30 23:33:24,252 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:33:26,580 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790804252_0_6356018297 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:31,952 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:33:35,804 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:37,864 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:33:38,203 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:38,203 - INFO - ✅ POST SUKSES! PK: 3821604959242785471
+2026-01-30 23:33:38,204 - INFO - 
+⚡ [5/42] Processing: Putra Siregar Dilantik Jadi Kasi PAPBB Kejari Aceh Tenggara - KLIK7TV
+2026-01-30 23:33:39,440 - WARNING - ⚠️ No valid image found.
+2026-01-30 23:33:39,442 - INFO - 
+⚡ [12/42] Processing: Sampah Bekas Banjir Aceh di Tiga Kabupaten Ini Capai 698 ton - BERITAKINI
+2026-01-30 23:33:42,659 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:33:44,315 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790822659_0_4232475306 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:51,232 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:33:55,194 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:58,901 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:33:59,194 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:33:59,194 - INFO - ✅ POST SUKSES! PK: 3821605120849283792
+2026-01-30 23:33:59,203 - INFO - 
+⚡ [15/42] Processing: Areal Persawahan Yang Rusak Karena Banjir Akan Segera Ditanggani - bithe.co
+2026-01-30 23:34:02,406 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:34:04,023 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790842406_0_9102006347 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:34:09,620 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:34:14,394 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:34:18,129 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:34:18,409 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:34:18,409 - INFO - ✅ POST SUKSES! PK: 3821605275292007440
+2026-01-30 23:34:18,409 - INFO - ☕ Batch Break: Istirahat 55 detik...
+2026-01-30 23:35:13,412 - INFO - 
+⚡ [21/42] Processing: APBD Aceh Tenggara 2026 : Pendapatan Rp 1.231,51 Miliar, 87 Persen dari Dana Pusat - batam.tribunnews.com
+2026-01-30 23:35:15,136 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:35:16,777 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790915136_0_9315026299 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:35:23,648 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:35:28,395 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:35:31,802 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:35:32,154 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:35:32,154 - INFO - ✅ POST SUKSES! PK: 3821605896048941647
+2026-01-30 23:35:32,154 - INFO - 
+⚡ [22/42] Processing: Expose JITUPASANA, Pemkab Aceh Tenggara Serahkan Dokumen R3P - poskotasumatera.com
+2026-01-30 23:35:35,666 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:35:37,765 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790935666_0_5054939333 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:35:44,507 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:35:48,150 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:35:50,926 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:35:51,245 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:35:51,245 - INFO - ✅ POST SUKSES! PK: 3821606071177956929
+2026-01-30 23:35:51,245 - INFO - 
+⚡ [24/42] Processing: Korban Banjir Aceh Utara Terima Bantuan Rp 600 Ribu per Bulan - ajnn.net
+2026-01-30 23:35:56,563 - WARNING - ⚠️ No valid image found.
+2026-01-30 23:35:56,565 - INFO - 
+⚡ [26/42] Processing: Babinsa Dampingi Pembangunan Koperasi Merah Putih di Desa Binaan - agaranews.com
+2026-01-30 23:35:59,539 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:36:01,504 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769790959539_0_5122411500 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:36:06,567 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:36:11,136 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:36:13,731 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:36:14,058 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:36:14,058 - INFO - ✅ POST SUKSES! PK: 3821606256071232435
+2026-01-30 23:36:14,059 - INFO - ☕ Batch Break: Istirahat 59 detik...
+2026-01-30 23:37:51,717 - INFO - 🚀 Bot Started (V6 Professional Refactor)
+2026-01-30 23:37:51,718 - INFO - 🔄 Login Instagram (Percobaan 1)...
+2026-01-30 23:37:54,371 - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2026-01-30 23:37:54,780 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:37:57,684 - INFO - https://i.instagram.com/api/v1/accounts/login/
+2026-01-30 23:38:02,404 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:04,926 - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2026-01-30 23:38:05,321 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:08,848 - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2026-01-30 23:38:12,526 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:12,526 - INFO - ✅ Login Berhasil!
+2026-01-30 23:38:12,526 - INFO - 📡 Scanning Google News RSS...
+2026-01-30 23:38:12,969 - INFO - 📅 Berita Hari Ini: 42
+2026-01-30 23:38:12,969 - INFO - 
+⚡ [5/42] Processing: Putra Siregar Dilantik Jadi Kasi PAPBB Kejari Aceh Tenggara - KLIK7TV
+2026-01-30 23:38:13,588 - WARNING - ⚠️ No valid image found.
+2026-01-30 23:38:13,589 - INFO - 
+⚡ [24/42] Processing: Korban Banjir Aceh Utara Terima Bantuan Rp 600 Ribu per Bulan - ajnn.net
+2026-01-30 23:38:15,968 - WARNING - ⚠️ No valid image found.
+2026-01-30 23:38:15,969 - INFO - 
+⚡ [27/42] Processing: Sambangi Warga, Babinsa Turut Bantu Menjemur Padi - agaranews.com
+2026-01-30 23:38:19,374 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:38:21,644 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791099374_0_9041336435 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:26,859 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:38:31,004 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:33,606 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:38:33,986 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:33,987 - INFO - ✅ POST SUKSES! PK: 3821607433471102070
+2026-01-30 23:38:33,987 - INFO - 
+⚡ [28/42] Processing: Babinsa Pantau Jembatan Baley yang Telah siap di Pakai - agaranews.com
+2026-01-30 23:38:36,315 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:38:37,777 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791116316_0_8929866381 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:43,131 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:38:47,111 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:49,136 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:38:49,416 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:38:49,416 - INFO - ✅ POST SUKSES! PK: 3821607569744044211
+2026-01-30 23:38:49,418 - INFO - 
+⚡ [29/42] Processing: Babinsa Kuala Pesisir Kembali Padamkan Api - agaranews.com
+2026-01-30 23:38:52,858 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:38:54,574 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791132858_0_4421966061 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:39:00,935 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:39:04,492 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:39:07,305 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:39:07,603 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:39:07,603 - INFO - ✅ POST SUKSES! PK: 3821607719665255386
+2026-01-30 23:39:07,604 - INFO - ☕ Batch Break: Istirahat 47 detik...
+2026-01-30 23:39:54,605 - INFO - 
+⚡ [30/42] Processing: Masyarakat Bersyukur Air Bersih Telah di Rasakan Kembali Pasca Banjir Bandang - agaranews.com
+2026-01-30 23:39:59,250 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:40:01,694 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791199251_0_9157791615 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:07,586 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:40:11,474 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:13,942 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:40:14,226 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:14,226 - INFO - ✅ POST SUKSES! PK: 3821608278967308440
+2026-01-30 23:40:14,226 - INFO - 
+⚡ [31/42] Processing: Babinsa Rutin Cek ketersediaan Pupuk dan Obat Obatan Pertanian - agaranews.com
+2026-01-30 23:40:16,508 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:40:18,197 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791216509_0_8890457554 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:24,352 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:40:27,959 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:30,937 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:40:31,275 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:31,275 - INFO - ✅ POST SUKSES! PK: 3821608418570501016
+2026-01-30 23:40:31,277 - INFO - 
+⚡ [32/42] Processing: Babinsa Dampingi Petani Pembersihan Gulma Padi di Desa Binaan - agaranews.com
+2026-01-30 23:40:34,279 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:40:36,256 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791234281_0_1325067731 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:42,829 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:40:47,378 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:49,781 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:40:50,126 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:40:50,126 - INFO - ✅ POST SUKSES! PK: 3821608574581824282
+2026-01-30 23:40:50,132 - INFO - ☕ Batch Break: Istirahat 41 detik...
+2026-01-30 23:41:31,133 - INFO - 
+⚡ [33/42] Processing: Babinsa Anjangsana Ke Warga Pengrajin Batu Bata Di Wilayah Binaan - agaranews.com
+2026-01-30 23:41:34,184 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:41:36,486 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791294184_0_6752375349 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:41:42,151 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:41:46,066 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:41:49,295 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:41:49,650 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:41:49,650 - INFO - ✅ POST SUKSES! PK: 3821609071623662157
+2026-01-30 23:41:49,650 - INFO - 
+⚡ [34/42] Processing: Dukung Swasembada Pangan Babinsa Bantu Petani Tanam Padi - agaranews.com
+2026-01-30 23:41:53,031 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:41:54,598 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791313031_0_1238271181 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:42:00,004 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:42:03,890 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:42:06,272 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:42:06,564 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:42:06,565 - INFO - ✅ POST SUKSES! PK: 3821609221343510637
+2026-01-30 23:42:06,566 - INFO - 
+⚡ [35/42] Processing: Babinsa Koramil 05/Darul Makmur Bantu Perawatan Tanaman Timun di Desa Binaan - agaranews.com
+2026-01-30 23:42:09,468 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:42:12,210 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791329468_0_4201752632 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:42:18,251 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:42:23,579 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:42:26,110 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:42:26,435 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:42:26,436 - INFO - ✅ POST SUKSES! PK: 3821609374327194220
+2026-01-30 23:42:26,437 - INFO - ☕ Batch Break: Istirahat 46 detik...
+2026-01-30 23:43:12,437 - INFO - 
+⚡ [36/42] Processing: Pembersihan material di jalan lintas Blangkejeren-Kutacane dikebut - Head Topics
+2026-01-30 23:43:16,154 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:43:18,181 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791396154_0_2443188464 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:43:24,170 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:43:29,524 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:43:31,758 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:43:32,013 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:43:32,013 - INFO - ✅ POST SUKSES! PK: 3821609928461878720
+2026-01-30 23:43:32,015 - INFO - 
+⚡ [38/42] Processing: Kodim 0116/Nagan Raya Gelar acara Isra Mi’raj Nabi Muhammad SAW - agaranews.com
+2026-01-30 23:43:35,981 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:43:38,049 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791415982_0_4434457352 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:43:43,862 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:43:48,721 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:43:51,028 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:43:51,319 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:43:51,319 - INFO - ✅ POST SUKSES! PK: 3821610092912172574
+2026-01-30 23:43:51,320 - INFO - 
+⚡ [39/42] Processing: Babinsa Komsos dengan Pemuda, Bahas Pentingnya Nasionalisme - agaranews.com
+2026-01-30 23:43:53,939 - INFO - 📤 Uploading to Instagram...
+2026-01-30 23:43:56,086 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/rupload_igphoto/1769791433940_0_7739703285 (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:44:02,911 - INFO - https://i.instagram.com/api/v1/media/configure/
+2026-01-30 23:44:08,683 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/media/configure/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:44:12,531 - INFO - https://i.instagram.com/api/v1/qe/expose/
+2026-01-30 23:44:12,787 - INFO - kabaracehtenggara [200] POST https://i.instagram.com/api/v1/qe/expose/ (269.0.0.18.75, OnePlus 6T Dev)
+2026-01-30 23:44:12,787 - INFO - ✅ POST SUKSES! PK: 3821610252295707661
+2026-01-30 23:44:12,787 - INFO - ☕ Batch Break: Istirahat 43 detik...
